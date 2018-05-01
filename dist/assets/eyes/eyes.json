@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Not probable",
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/eyes/black1.png"
+  },
+  {
+    "label": "Somewhat improbable",
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/eyes/black1.png"
+  },
+  {
+    "label": "Neutral",
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/eyes/hispanic1.png"
+  },
+  {
+    "label": "Somewhat probable",
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/eyes/white1.png"
+  },
+  {
+    "label": "Very probable",
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/eyes/white1.png"
+  }
+]
