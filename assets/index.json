@@ -1,18 +1,18 @@
 [
   {
     "title": "Eyes",
-    "url": "https://surumen.github.io/matching-quiz/assets/eyes/eyes.json"
+    "url": "./assets/assets/eyes/eyes.json"
   },
   {
     "title": "Hair",
-    "url": "https://surumen.github.io/matching-quiz/assets/hair/hair.json"
+    "url": "./assets/assets/hair/hair.json"
   },
   {
     "title": "Clothing",
-    "url": "https://surumen.github.io/matching-quiz/assets/clothing/clothing.json"
+    "url": "./assets/assets/clothing/clothing.json"
   },
   {
     "title": "Build",
-    "url": "https://surumen.github.io/matching-quiz/assets/build/build.json"
+    "url": "./assets/assets/build/build.json"
   }
 ]
