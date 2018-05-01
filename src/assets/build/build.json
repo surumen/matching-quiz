@@ -1,22 +1,22 @@
 [
   {
     "label": "Not probable",
-    "imageUrl": "../assets/build/black1.png"
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/build/black1.png"
   },
   {
     "label": "Somewhat improbable",
-    "imageUrl": "../assets/build/black1.png"
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/build/black1.png"
   },
   {
     "label": "Neutral",
-    "imageUrl": "../assets/build/hispanic1.png"
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/build/hispanic1.png"
   },
   {
     "label": "Somewhat probable",
-    "imageUrl": "../assets/build/white1.png"
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/build/white1.png"
   },
   {
     "label": "Very probable",
-    "imageUrl": "../assets/build/white1.png"
+    "imageUrl": "https://surumen.github.io/matching-quiz/assets/build/white1.png"
   }
 ]

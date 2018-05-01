@@ -20,7 +20,7 @@ export class StateService {
   constructor(private http: HttpClient) {}
 
   initialize() {
-    const indexUrl = '../../../assets/index.json';
+    const indexUrl = 'https://surumen.github.io/matching-quiz/assets/index.json';
     this.http.get(indexUrl).toPromise().then(( response: any ) => {
       this.setsSubject.next(new Array<MatchSet>(...response));
     });
