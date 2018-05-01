@@ -1,0 +1,14 @@
+{
+  "name": "starter-kit",
+  "private": true,
+  "dependencies": {
+    "o-big-number": "^1.1.6",
+    "o-colors": "^4.4.0",
+    "o-grid": "^4.3.8",
+    "o-icons": "^5.6.1",
+    "o-typography": "^5.6.5"
+  },
+  "resolutions": {
+    "o-colors": "^4.4.0"
+  }
+}

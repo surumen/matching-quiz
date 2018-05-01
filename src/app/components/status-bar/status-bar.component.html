@@ -1,0 +1,22 @@
+<div class="o-grid-container">
+  <div class="o-grid-row">
+    <div data-o-grid-colspan="11 S9 M7 L5 XL4 center">
+      <span *ngIf="!(isLoaded$ | async)">
+          Select a category to start:
+        </span>
+        <form class="o-forms" #f="ngForm">
+          <mat-select ts-select-fix (change)="onChange()" [(ngModel)]="selectedMatchSet" class="o-forms__select" name="selectedMatchSet">
+            <mat-option *ngFor="let matchSet of matchSets$ | async" [value]="matchSet" >
+              {{matchSet.title}}
+            </mat-option>
+          </mat-select>
+        </form>
+        <span *ngIf="isLoaded$ | async">
+          {{ matchCount$ | async }} of {{ matchTotal$ | async }}
+        </span>
+        
+        <button mat-raised-button color="primary" *ngIf="isLoaded$ | async" (click)="onResetClicked()">Reset</button>
+
+    </div>
+  </div>
+</div>

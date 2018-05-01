@@ -1,0 +1,21 @@
+{
+  "name": "o-big-number",
+  "main": [
+    "main.scss",
+    "main.js"
+  ],
+  "dependencies": {
+    "o-colors": ">=2.4.4 <4"
+  },
+  "homepage": "https://github.com/Financial-Times/o-big-number",
+  "version": "1.1.6",
+  "_release": "1.1.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.6",
+    "commit": "0ac1afe6e86654ec6c7f2d90b5b9ea723df29b3a"
+  },
+  "_source": "https://github.com/Financial-Times/o-big-number.git",
+  "_target": "^1.1.6",
+  "_originalSource": "o-big-number"
+}

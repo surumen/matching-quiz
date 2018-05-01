@@ -1,0 +1,15 @@
+<div class="o-grid-container">
+	<main>
+		<div class="o-subs-card__container">
+			<div class="o-subs-card">
+				<div class="o-subs-card__top">
+					<ul>
+				      <li *ngFor="let model of models$ | async" [dragula]="model.containerName" [dragulaOptions]="dragulaOptions">
+				        <app-match-tile [model]="model" *ngIf="!model.isMatched"></app-match-tile>
+				      </li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+	</main>
+</div>

@@ -1,0 +1,25 @@
+{
+	"description": "A pull-quote-esque component that highlights large numbers",
+	"origamiType": "module",
+	"origamiCategory": "components",
+	"origamiVersion": 1,
+	"support": "https://github.com/Financial-Times/o-big-number/issues",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/ft-origami"
+	},
+	"supportStatus": "experimental",
+	"demosDefaults": {
+		"sass": "demos/src/demo.scss",
+		"dependencies": "o-fonts@^1.6.3"
+	},
+	"ci": {
+		"circle": "https://circleci.com/api/v1/project/Financial-Times/o-big-number"
+	},
+	"demos": [
+		{
+			"name": "simple",
+			"template": "demos/src/simple.mustache"
+		}
+	]
+}

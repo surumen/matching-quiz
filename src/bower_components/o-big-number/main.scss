@@ -1,0 +1,25 @@
+@import "../o-colors/main";
+@import "src/scss/variables";
+
+@mixin oBigNumber {
+	font-family: oFontsGetFontFamilyWithFallbacks(MetricWeb);
+	color: #000000;
+	border-left: 2px solid #000000;
+	padding-left: 10px;
+}
+
+@mixin oBigNumberTitle {
+	display: block;
+	font-size: 4em;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+@if $o-big-number-is-silent == false {
+	.o-big-number {
+		@include oBigNumber;
+	}
+	.o-big-number__title {
+		@include oBigNumberTitle;
+	}
+}

@@ -1,0 +1,283 @@
+$o-big-number-is-silent: false;
+$o-grid-is-silent: false;
+$o-typography-is-silent: false;
+
+@import 'bower_components/o-big-number/main';
+@import 'bower_components/o-colors/main';
+@import 'bower_components/o-grid/main';
+@import "bower_components/o-icons/main";
+@import 'bower_components/o-typography/main';
+
+$font-sans: MetricWeb, sans-serif;
+$font-serif: Georgia, serif;
+$font-display: FinancierDisplayWeb, Georgia, serif;
+
+body {
+  @include oColorsFor(page, background);
+  margin: 0;
+  border: 0;
+  font-family: $font-sans;
+}
+
+.o-header{
+  &--light {
+    border-bottom: 1px solid #e9decf;
+  }
+}
+
+$share-button-size: 38px;
+.o-share--muted {
+  .o-share__action {
+    line-height: $share-button-size;
+
+    a {
+      width: $share-button-size;
+      &:hover {
+      }
+    }
+
+    i {
+      width: $share-button-size;
+      height: $share-button-size;
+      text-indent: $share-button-size;
+      border: 1px solid #e9decf;
+      &:hover {
+        opacity: 1;
+        background-color: #e9decf;
+      }
+    }
+
+    &--twitter i {
+      background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMTMgLTEwMyA0MCA0MCI+PHBhdGggZmlsbD0iI2E3YTU5YiIgZD0iTS04MS44NjItODkuNzg2Yy0uODIuMzU3LTEuNy42LTIuNjI0LjcwOC45NDMtLjU1NiAxLjY2OC0xLjQzNiAyLjAxLTIuNDgzLS44ODMuNTEtMS44NjIuODgtMi45MDIgMS4wOC0uODMzLS44Ny0yLjAyLTEuNDItMy4zMzctMS40Mi0yLjUyMyAwLTQuNTcgMi4wMS00LjU3IDQuNDkgMCAuMzUuMDQuNjkuMTE4IDEuMDItMy44LS4xOS03LjE2Ny0xLjk3OC05LjQyLTQuNjktLjM5NC42Ni0uNjIgMS40My0uNjIgMi4yNiAwIDEuNTUuODA3IDIuOTMgMi4wMzMgMy43My0uNzUtLjAyNS0xLjQ1NC0uMjI4LTIuMDctLjU2di4wNTRjMCAyLjE3NiAxLjU3MyAzLjk5IDMuNjY3IDQuNC0uMzg0LjEwNC0uNzkuMTYtMS4yMDQuMTYtLjMgMC0uNTgtLjAyNy0uODYtLjA4LjU4IDEuNzgyIDIuMjcgMy4wOCA0LjI3IDMuMTE2LTEuNTcgMS4yMDUtMy41NCAxLjkyMy01LjY4IDEuOTIzLS4zNyAwLS43NC0uMDI2LTEuMDktLjA2NyAyLjAyIDEuMjcyIDQuNDIgMi4wMTUgNyAyLjAxNSA4LjQgMCAxMy02Ljg0IDEzLTEyLjc3IDAtLjE5NC0uMDA3LS4zOS0uMDE4LS41OC44OS0uNjMzIDEuNjY1LTEuNDI1IDIuMjgtMi4zMjV6Ii8+PC9zdmc+)
+    }
+
+    &--facebook i {
+      background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMTQgLTEwNSA0MCA0MCI+PHBhdGggZmlsbD0iI2E3YTU5YiIgZD0iTS05Ny05MS40NHYyLjk1aC0yLjE3djMuNjJILTk3djEwLjcyaDQuNDN2LTEwLjcyaDNzLjI2LTEuNzMuNC0zLjYyaC0zLjM4di0yLjQ3YzAtLjM3LjUtLjg3Ljk2LS44N2gyLjQzdi0zLjc1aC0zLjI4Yy00LjY2IDAtNC41NSAzLjYzLTQuNTUgNC4xNnoiLz48L3N2Zz4=)
+    }
+  }
+}
+
+.article {
+  &-head {
+    margin-top: 18px;
+    margin-bottom: 0px;
+  }
+
+  &-body {
+    & > :not(.graphic) {
+      max-width: 625px;
+      margin: 1em auto;
+      padding: 0 0.75em;
+    }
+  }
+}
+
+.graphic {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+
+  & > img,
+  & > svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &-b-0 {
+    max-width: 625px;
+  }
+
+  &-b-1 {
+    max-width: 700px;
+  }
+
+}
+
+// Custom
+.o-header {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 40px;
+}
+
+.progress-bar-container {
+  background-color: #f6e9d8;
+  height: 5px;
+}
+
+.progress-bar {
+  height: 5px;
+  width: 0;
+  background-color: #cec6b9;
+  -webkit-transition: all 750ms linear;
+  -moz-transition: all 750ms linear;
+  -ms-transition: all 750ms linear;
+  -o-transition: all 750ms linear;
+  transition: all 750ms linear;
+}
+
+.article-head {
+  margin-bottom: 0;
+}
+
+.o-typography-flyline__link {
+  @include oColorsFor(tag-link);
+}
+
+.o-typography-body-wrapper h2 {
+  margin-top: 0.83em;;
+}
+
+.o-aside-panel {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 740px) {
+  .o-footer {
+    margin-top: 16px;
+  }
+}
+
+.answer-controls {
+  text-align: center;
+  .o-buttons {
+    width: 100%;
+    max-width: 625px;
+    margin: 0 auto 6px;
+    &.tweet-result {
+      margin-top: 20px;
+    }
+  }
+}
+
+.o-buttons--primary[disabled].correct {
+  background-color: #458b00;
+  color: #fff;
+}
+
+.o-buttons--primary[disabled].incorrect {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.icon-tick {
+  @include oIconsGetIcon('tick', oColorsGetPaletteColor('white'), 18);
+
+  &.large {
+    @include oIconsGetIcon('tick', oColorsGetPaletteColor('white'), 72);
+  }
+}
+
+.icon-cross {
+  @include oIconsGetIcon('cross', oColorsGetPaletteColor('white'), 18);
+
+  &.large {
+    @include oIconsGetIcon('cross', oColorsGetPaletteColor('white'), 72);
+  }
+}
+
+.icon-arrow-down {
+  @include oIconsGetIcon('arrow-down', oColorsGetPaletteColor('grey-tint5'), 36);
+}
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  padding-top: calc(50vh - 32px);
+  color: #fff;
+  text-align: center;
+  z-index: 999;
+  .o-big-number__title {
+    font-family: $font-display;
+  }
+}
+
+.splash.correct {
+  background-color: rgba(69, 139, 0, 0.8);
+}
+
+.splash.incorrect {
+  background-color: rgba(204, 0, 0, 0.8);
+}
+
+.icon-thumb-up {
+  @include oIconsGetIcon('thumb-up', oColorsGetPaletteColor('white'), 64);
+}
+
+.icon-thumb-down {
+  @include oIconsGetIcon('thumb-up', oColorsGetPaletteColor('white'), 64);
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.o-big-number__title.gauge {
+  position: absolute;
+  top: 66px;
+  right: 0;
+  left: 0;
+  margin-left: 10px;
+}
+
+@include oGridRespondTo(M) {
+  .o-big-number__title.gauge {
+    margin-left: 20px;
+  }
+}
+
+.o-aside-panel__body ul {
+  list-style-type: none;
+}
+
+.o-aside-panel__body ol {
+  font-family: $font-sans;
+}
+
+// Animations
+.animate-splash.ng-hide {
+  opacity: 0;
+}
+
+.animate-splash {
+  opacity: 1;
+}
+
+.animate-splash.ng-hide-remove {
+  display: block !important;
+}
+
+.animate-splash.ng-hide-add {
+  display: block !important;
+  -webkit-transition: all 500ms linear 150ms;
+  -moz-transition: all 500ms linear 150ms;
+  -ms-transition: all 500ms linear 150ms;
+  -o-transition: all 500ms linear 150ms;
+  transition: all 500ms linear 150ms;
+}
+
+.animate-reveal.ng-hide {
+  opacity: 0;
+  top: -24px;
+}
+
+.animate-reveal {
+  position: relative;
+  opacity: 1;
+  top: 0;
+}
+
+.animate-reveal.ng-hide-add, .animate-reveal.ng-hide-remove {
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  transition: all 300ms linear;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Not probable",
+    "imageUrl": "../assets/eyes/black1.png"
+  },
+  {
+    "label": "Somewhat improbable",
+    "imageUrl": "../assets/eyes/black1.png"
+  },
+  {
+    "label": "Neutral",
+    "imageUrl": "../assets/eyes/hispanic1.png"
+  },
+  {
+    "label": "Somewhat probable",
+    "imageUrl": "../assets/eyes/white1.png"
+  },
+  {
+    "label": "Very probable",
+    "imageUrl": "../assets/eyes/white1.png"
+  }
+]

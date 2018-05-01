@@ -1,0 +1,8 @@
+.o-buttons--big {
+	max-width: 50% !important;
+	margin-left: 0;
+	margin-right: 0;
+	display: block;
+	text-indent: center;
+	float: center;
+}
