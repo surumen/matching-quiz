@@ -2,11 +2,11 @@ $o-big-number-is-silent: false;
 $o-grid-is-silent: false;
 $o-typography-is-silent: false;
 
-@import 'o-big-number/main';
-@import 'o-colors/main';
-@import 'o-grid/main';
-@import "o-icons/main";
-@import 'o-typography/main';
+@import '../bower_components/o-big-number/main';
+@import '../bower_components/o-colors/main';
+@import '../bower_components/o-grid/main';
+@import "../bower_components/o-icons/main";
+@import '../bower_components/o-typography/main';
 
 $font-sans: MetricWeb, sans-serif;
 $font-serif: Georgia, serif;
