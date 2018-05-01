@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Eyes",
+    "url": "https://surumen.github.io/matching-quiz/eyes/eyes.json"
+  },
+  {
+    "title": "Hair",
+    "url": "https://surumen.github.io/matching-quiz/hair/hair.json"
+  },
+  {
+    "title": "Clothing",
+    "url": "https://surumen.github.io/matching-quiz/clothing/clothing.json"
+  },
+  {
+    "title": "Build",
+    "url": "https://surumen.github.io/matching-quiz/build/build.json"
+  }
+]
