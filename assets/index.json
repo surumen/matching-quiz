@@ -1,18 +1,18 @@
 [
   {
     "title": "Eyes",
-    "url": "../assets/eyes/eyes.json"
+    "url": "./eyes/eyes.json"
   },
   {
     "title": "Hair",
-    "url": "../assets/hair/hair.json"
+    "url": "./hair/hair.json"
   },
   {
     "title": "Clothing",
-    "url": "../assets/clothing/clothing.json"
+    "url": "./clothing/clothing.json"
   },
   {
     "title": "Build",
-    "url": "../assets/build/build.json"
+    "url": "./build/build.json"
   }
 ]
