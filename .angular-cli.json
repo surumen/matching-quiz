@@ -21,6 +21,8 @@
       "styles": [
         "matching-quiz-app-theme.scss",
         "styles.css",
+        "styles/main.scss",
+        "fontawesome/css/fontawesome.min.css",
         "../node_modules/dragula/dist/dragula.min.css"
       ],
       "scripts": [],
